@@ -1,0 +1,15 @@
+{
+    "name": "namaste_react",
+    "version": "1.0.0",
+    "description": "react",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "tanish",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.12.0"
+    }
+}
