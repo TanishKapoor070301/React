@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Namaste React</title>
+</head>
+
+<body>
+    <h1>WELCOME</h1>
+    <div id="root">
+        <h1>hi</h1>
+    </div>
+    <!-- this above h1 will get replaced -->
+    <h1>BYE</h1>
+
+
+    <div id="A">
+        <h1>Hello1</h1>
+        <div id="B">
+            <h1>hello2</h1>
+        </div>
+    </div>
+
+    <!-- with react we can change only div with id B therefore for snall piece of functionality we acn use React-->
+
+    <!-- <script>
+    const heading = document.createElement("h1");
+    heading.innerHTML = "Hello world js";
+    const root = document.getElementById("root");
+    root.appendChild(heading);
+    </script> -->
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+
+    <script src="./app.js"></script>
+
+
+
+
+    <!-- <script>
+        const heading = React.createElement("h1", {}, "hello world from React!");
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        root.render(heading);
+    </script> -->
+
+</body>
+
+
+</html>
+
+
+<!-- 
+The crossorigin attribute in HTML is typically used in <script> tags when loading external scripts, like in your example.
+
+When you load scripts from a different domain, the browser usually enforces the same-origin policy, which restricts scripts 
+from accessing resources (like data or other scripts) from a different domain. However, if you want to allow such access, you can use the crossorigin attribute.
+
+Setting crossorigin to "anonymous" indicates that the script does not need credentials to be passed along. This allows the browser to load the
+script without sending any cookies or HTTP authentication information. It's commonly used for loading resources like JavaScript libraries or fonts from CDNs 
+(Content Delivery Networks).
+
+Setting crossorigin to "use-credentials" indicates that the script requires credentials (such as cookies, authorization headers, or TLS client certificates) to be sent with the request. 
+
+The crossorigin attribute is not necessary if you're simply loading React and React DOM from the unpkg.com CDN. However, it's a good practice to include it, especially if you plan to 
+load resources from different domains and need to ensure proper CORS (Cross-Origin Resource Sharing) behavior.
+
+
+Of course! Imagine you're hosting a big party, and you want to bring in some cool stuff from your friend's house down the street.
+ Now, your parents have some rules about borrowing things: you're allowed to borrow some stuff, but you can't just grab whatever you want without permission.
+
+Now, when you bring stuff from your friend's house, you have to let your parents know if you're borrowing it with permission (like borrowing a game), 
+or if you're just borrowing it temporarily (like borrowing a cup for the party). That's what the crossorigin is for when you're loading scripts in a webpage.
+
+If you set crossorigin to "anonymous", it's like saying, "Hey browser, I'm just borrowing this stuff temporarily for the party, and I don't need any 
+special permission or identification." This is typically used when you're grabbing stuff from places like online stores or libraries on the web.
+
+If you set crossorigin to "use-credentials", it's like saying, "Hey browser, I need to borrow this stuff, and I have proper permission and identification for it. 
+So, I'll give you my credentials to prove it." This is used when you're accessing more sensitive stuff that requires special permission, 
+like logging into your email account.
+
+In your example with React, it's like you're grabbing some fun party games from a game store (the CDN where React is hosted). 
+You're just borrowing them for the party, so you'd set crossorigin to "anonymous" to let the browser know you don't need any special permission to use them. 
+It's a way to play by the rules and keep everything running smoothly at the party!
+
+
+In the context of React (or any JavaScript library or framework), a CDN (Content Delivery Network) is used to host the JavaScript files needed to run React-based applications. These JavaScript files include the React library itself, as well as other related libraries like ReactDOM for rendering React components in the browser.
+
+Using a CDN to serve React has several advantages:
+
+Ease of Use: Instead of downloading and hosting React files on your own server, you can simply include them in your HTML file using script tags that point to the CDN URLs.
+
+Performance: CDNs typically have servers distributed around the world, which means that users can download React files from a server that is geographically close to them. This can lead to faster loading times for your application, as the files are served from a location with lower latency.
+
+Scalability: CDNs are designed to handle high levels of traffic and can scale dynamically to accommodate spikes in demand. This can be especially useful for popular React-based applications that experience fluctuations in traffic.
+
+Maintenance: By relying on a CDN to host React, you can offload the responsibility of maintaining and updating the files to the CDN provider. This means you don't have to worry about keeping your React files up to date with the latest versions.
+-->
