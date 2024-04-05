@@ -4,12 +4,24 @@
     "description": "react",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "rm -rf .parcel-cache && parcel",
+        "build": "rm -rf .parcel-cache && parcel build"
     },
     "keywords": [],
     "author": "tanish",
     "license": "ISC",
     "devDependencies": {
-        "parcel": "^2.12.0"
-    }
+        "parcel": "^2.12.0",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "browserslist": [
+        "last 2 Chrome version",
+        "last 2 Firefox version"
+
+    ]
 }
