@@ -1,4 +1,4 @@
-5958
+5961
 61E:\Namaste_React\node_modules\caniuse-lite\data\regions\VE.js133567714433197907 0
 38E:\Namaste_React\node_modules\get-port133567714377379779 1
 76E:\Namaste_React\node_modules\css-select\lib\esm\pseudo-selectors\index.d.ts133567714377225210 0
@@ -16,7 +16,7 @@
 52E:\Namaste_React\node_modules\nth-check\lib\parse.js133567714345077153 0
 45E:\Namaste_React\node_modules\source-map\dist133567714363882356 1
 45E:\Namaste_React\node_modules\chalk\readme.md133567714343742829 0
-21E:\Namaste_React\dist133567885970038244 1
+21E:\Namaste_React\dist133567948333261835 1
 83E:\Namaste_React\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\index.js133567714422552437 0
 27E:\Namaste_React\.gitignore133567778331344682 0
 47E:\Namaste_React\node_modules\commander\typings133567714398128633 1
@@ -67,7 +67,7 @@
 38E:\Namaste_React\node_modules\domutils133567714359428629 1
 78E:\Namaste_React\node_modules\csso\node_modules\css-tree\cjs\lexer\generic.cjs133567714404165983 0
 57E:\Namaste_React\node_modules\dom-serializer\node_modules133567714334762510 1
-23E:\Namaste_React\class3133567884721312316 1
+23E:\Namaste_React\class3133567891384298499 1
 78E:\Namaste_React\node_modules\csso\node_modules\css-tree\cjs\syntax\create.cjs133567714397236564 0
 64E:\Namaste_React\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133567714352465107 0
 46E:\Namaste_React\node_modules\tslib\tslib.html133567714347392955 0
@@ -149,7 +149,7 @@
 72E:\Namaste_React\node_modules\caniuse-lite\data\features\font-kerning.js133567714418021801 0
 40E:\Namaste_React\node_modules\fill-range133567714341826524 1
 77E:\Namaste_React\node_modules\@swc\helpers\_\_is_native_function\package.json133567714412025056 0
-32E:\Namaste_React\dist\index.html133567885885667425 0
+32E:\Namaste_React\dist\index.html133567946569160322 0
 108E:\Namaste_React\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeAttributesBySelector.js133567714408690601 0
 79E:\Namaste_React\node_modules\csso\node_modules\css-tree\lib\syntax\node\CDO.js133567714417759499 0
 87E:\Namaste_React\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.min.js133567714402241019 0
@@ -2074,6 +2074,7 @@
 75E:\Namaste_React\node_modules\@swc\helpers\src\_iterable_to_array_limit.mjs133567714422822524 0
 61E:\Namaste_React\node_modules\@swc\helpers\_\_super_prop_base133567714416144133 1
 52E:\Namaste_React\node_modules\@swc\helpers\_\_update133567714418061792 1
+40E:\Namaste_React\dist\index.738a45d3.css133567946162405321 0
 72E:\Namaste_React\node_modules\caniuse-lite\data\features\svg-fragment.js133567714431935180 0
 52E:\Namaste_React\node_modules\lru-cache\package.json133567714341119402 0
 49E:\Namaste_React\node_modules\js-yaml\lib\type.js133567714366088032 0
@@ -5952,8 +5953,10 @@
 61E:\Namaste_React\node_modules\.bin\update-browserslist-db.ps1133567714539834775 0
 42E:\Namaste_React\dist\1_index.f47ca1df.css133567884885130121 0
 46E:\Namaste_React\dist\1_index.f47ca1df.css.map133567884885225275 0
-39E:\Namaste_React\dist\index.2293e2a0.js133567885969931452 0
-43E:\Namaste_React\dist\index.2293e2a0.js.map133567885970028324 0
-30E:\Namaste_React\class3\app.js133567886033618020 0
-34E:\Namaste_React\class3\index.html133567885533790681 0
+30E:\Namaste_React\class3\app.js133567948447807337 0
+33E:\Namaste_React\class3\index.css133567897776438416 0
+34E:\Namaste_React\class3\index.html133567946568908850 0
 33E:\Namaste_React\class1\index.css133567290236665908 0
+44E:\Namaste_React\dist\index.738a45d3.css.map133567946162610688 0
+39E:\Namaste_React\dist\index.2293e2a0.js133567948333140956 0
+43E:\Namaste_React\dist\index.2293e2a0.js.map133567948333227203 0
