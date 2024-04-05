@@ -4,9 +4,11 @@
     "description": "react",
     "main": "index.js",
     "scripts": {
-        "test": "jest",
-        "start": "rm -rf .parcel-cache && parcel",
-        "build": "rm -rf .parcel-cache && parcel build"
+        "start1": "parcel class1/1_index.html",
+        "build1": "parcel build class1/1_index.html",
+        "start3": "parcel class3/index.html",
+        "build3": "parcel build class3/index.html",
+        "test": "jest"
     },
     "keywords": [],
     "author": "tanish",
